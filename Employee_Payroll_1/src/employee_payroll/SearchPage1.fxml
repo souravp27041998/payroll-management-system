@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="686.0" prefWidth="1058.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee_payroll.FXMLDocumentController">
+   <children>
+      <Label layoutX="22.0" layoutY="14.0" text="Search">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="30.0" prefHeight="58.0" prefWidth="1026.0" styleClass="EmpReg" stylesheets="@../Images.css">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <Label layoutX="19.0" layoutY="144.0" prefHeight="535.0" prefWidth="1020.0" styleClass="EmpReg" stylesheets="@../Images.css">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="25.0" layoutY="97.0" text="Enter Employee Details">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="searchdelete" layoutX="761.0" layoutY="512.0" mnemonicParsing="false" onAction="#handlesearchdelete" prefHeight="39.0" prefWidth="149.0" text="Delete Record">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="titlesearch" layoutX="519.0" layoutY="355.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="dohsearch" layoutX="519.0" layoutY="299.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="statussearch" layoutX="519.0" layoutY="243.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="designationsearch" layoutX="520.0" layoutY="193.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="departmentsearch" layoutX="519.0" layoutY="144.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Label layoutX="411.0" layoutY="353.0" text="Job Title :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="294.0" text="Date Hired :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="412.0" layoutY="241.0" text="Status :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="195.0" text="Designation :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="145.0" text="Department :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="address2search" layoutX="153.0" layoutY="572.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="address1search" layoutX="153.0" layoutY="519.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="contactsearch" layoutX="153.0" layoutY="463.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="emailsearch" layoutX="153.0" layoutY="408.0" prefHeight="25.0" prefWidth="272.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="gendersearch" layoutX="153.0" layoutY="355.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="dobsearch" layoutX="153.0" layoutY="298.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="lastnamesearch" layoutX="153.0" layoutY="242.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="firstnamesearch" layoutX="153.0" layoutY="193.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="empidsearch" layoutX="153.0" layoutY="143.0" onAction="#handleempidsearch">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Label layoutX="28.0" layoutY="632.0" text="Post Code :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="574.0" text="Address Line 2 :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="518.0" text="Address Line 1 :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="465.0" text="Contact :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="410.0" text="Email :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="357.0" text="Gender :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="297.0" text="Date Of Birth :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="244.0" prefHeight="16.0" prefWidth="107.0" text="Last Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="195.0" text="First Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="145.0" text="Employee Id :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="postcodesearch" layoutX="153.0" layoutY="630.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Button fx:id="searchclear" layoutX="654.0" layoutY="597.0" mnemonicParsing="false" onAction="#handlesearchclear" prefHeight="39.0" prefWidth="107.0" text="Clear">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="imgviewsearch" fitHeight="214.0" fitWidth="245.0" layoutX="786.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="471.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee_payroll.FXMLDocumentController">
+   <children>
+      <Label layoutX="23.0" layoutY="33.0" text="Search">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="49.0" prefHeight="58.0" prefWidth="571.0" styleClass="EmpReg" stylesheets="@../Images.css">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="empidupdate" blendMode="SCREEN" layoutX="131.0" layoutY="66.0" onAction="#handleempidupdatebtn" prefHeight="25.0" prefWidth="437.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <Label layoutX="23.0" layoutY="68.0" text="Employee Id :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lastnameupdate" layoutX="139.0" layoutY="234.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="dobupdate" layoutX="411.0" layoutY="138.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="basicsalaryupdate" layoutX="411.0" layoutY="183.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="departmentupdate" layoutX="411.0" layoutY="234.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="firstnameupdate" layoutX="139.0" layoutY="183.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="empidupdate11" layoutX="139.0" layoutY="138.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <Label layoutX="315.0" layoutY="236.0" text="Department :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="185.0" text="Basic Salary :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="312.0" layoutY="140.0" text="Date of Birth :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="236.0" text="Last Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="185.0" text="First Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="140.0" text="Employee Id :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="306.0" text="Update Salary by Amount :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="371.0" text="Amount :">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="amountupdate" layoutX="131.0" layoutY="371.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <Button fx:id="updatebtn" layoutX="418.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleupdatebtn" text="Update">
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

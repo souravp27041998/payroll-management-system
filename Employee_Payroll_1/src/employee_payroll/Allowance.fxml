@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="451.0" prefWidth="878.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee_payroll.FXMLDocumentController">
+   <children>
+      <Button fx:id="saveallowance" layoutX="207.0" layoutY="384.0" mnemonicParsing="false" onAction="#handlesaveallowance" prefHeight="35.0" prefWidth="154.0" text="Save">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Book Antiqua Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="clear" layoutX="471.0" layoutY="384.0" mnemonicParsing="false" onAction="#handleclearallowance" prefHeight="35.0" prefWidth="154.0" text="Clear">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Book Antiqua Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="600.0" layoutY="256.0" text="Total Amount :">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalamount" layoutX="745.0" layoutY="256.0" prefHeight="26.0" prefWidth="69.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="calculate" layoutX="619.0" layoutY="301.0" mnemonicParsing="false" onAction="#handlecalculate" prefHeight="35.0" prefWidth="154.0" text="Calculate">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Book Antiqua Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="326.0" layoutY="279.0" text="Others :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="327.0" layoutY="238.0" text="Medical :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="332.0" layoutY="192.0" text="Bonus :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="331.0" layoutY="152.0" text="Overtime :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="overtimeallowance" layoutX="409.0" layoutY="152.0" promptText="Hours">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="bonusallowance" layoutX="409.0" layoutY="190.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="medicalallowance" layoutX="409.0" layoutY="236.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="othersallowance" layoutX="409.0" layoutY="277.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <Label layoutX="594.0" layoutY="192.0" text="Rate per hour :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="590.0" layoutY="152.0" text="Total Overtime :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="rateperhour" layoutX="702.0" layoutY="190.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="lastnameallowance" layoutX="135.0" layoutY="203.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="doballowance" layoutX="135.0" layoutY="244.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="basicsalaryallowance" layoutX="135.0" layoutY="289.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="departmentallowance" layoutX="135.0" layoutY="333.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="firstnameallowance" layoutX="135.0" layoutY="157.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <TextField fx:id="empidallowance11" layoutX="133.0" layoutY="117.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <Label layoutX="28.0" layoutY="335.0" text="Department :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="291.0" text="Basic Salary :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="248.0" text="Date of Birth :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="205.0" text="Last Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="161.0" text="First Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="119.0" text="Employee Id :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="40.0" prefHeight="58.0" prefWidth="826.0" styleClass="EmpReg" stylesheets="@../Images.css">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <TextField fx:id="empidallowance" blendMode="SCREEN" layoutX="135.0" layoutY="57.0" onAction="#handleempidallowance" prefHeight="25.0" prefWidth="699.0">
+         <effect>
+            <InnerShadow color="#0a0a0a" />
+         </effect>
+      </TextField>
+      <Label layoutX="38.0" layoutY="59.0" text="Employee Id :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="24.0" text="Search">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="533.0" layoutY="109.0" prefHeight="17.0" prefWidth="273.0" text="Please enter the amounts">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalovertimeamount" alignment="CENTER" contentDisplay="CENTER" layoutX="707.0" layoutY="147.0" prefHeight="26.0" prefWidth="142.0" text="amount" />
+   </children>
+</AnchorPane>

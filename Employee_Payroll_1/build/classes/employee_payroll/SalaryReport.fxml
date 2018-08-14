@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="SalaryReport" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee_payroll.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutX="22.0" layoutY="94.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="743.0" styleClass="EmpReg" stylesheets="@../Images.css">
+         <children>
+            <Label layoutX="26.0" layoutY="24.0" text="Employee Id :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="74.0" text="First Name :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="123.0" prefHeight="16.0" prefWidth="107.0" text="Last Name :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="176.0" text="Date Of Birth :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="236.0" text="Gender :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="289.0" text="Email :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="424.0" layoutY="287.0" text="Contact :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="empidsalary1" layoutX="156.0" layoutY="25.0" onAction="#handleempidsalary1">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="fnsalary1" layoutX="155.0" layoutY="75.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="lnsalary1" layoutX="155.0" layoutY="124.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="dobsalary1" layoutX="155.0" layoutY="177.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="gendersalary1" layoutX="156.0" layoutY="233.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="emailsalary1" layoutX="155.0" layoutY="290.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="contactsalary1" layoutX="559.0" layoutY="285.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <Label layoutX="424.0" layoutY="24.0" text="Department :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="77.0" text="Designation :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="424.0" layoutY="123.0" text="Status :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="176.0" text="Date Hired :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="235.0" text="Job Title :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="departmentsalary1" layoutX="559.0" layoutY="22.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="designationsalary1" layoutX="559.0" layoutY="72.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="statussalary1" layoutX="559.0" layoutY="121.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="dohsalary1" layoutX="559.0" layoutY="177.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="titlesalary1" layoutX="559.0" layoutY="233.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <Label layoutX="55.0" layoutY="354.0" text="Basic Salary :">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="basic1" layoutX="239.0" layoutY="354.0" text="0.00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalallowance1" layoutX="239.0" layoutY="387.0" text="0.00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="385.0" layoutY="384.0" text="Total Salary :">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalsalary11" layoutX="549.0" layoutY="384.0" text="0.00">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="387.0" text="Total Allowances :">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="totaldeduction11" layoutX="239.0" layoutY="421.0" text="0.00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="55.0" layoutY="421.0" text="Total Deductions :">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="50.0" />
+         </opaqueInsets>
+      </AnchorPane>
+      <Label layoutX="35.0" layoutY="62.0" text="Salary Report">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

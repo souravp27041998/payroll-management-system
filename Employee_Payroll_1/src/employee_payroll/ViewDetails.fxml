@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="EmployeeRegistration" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="1159.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee_payroll.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutX="22.0" layoutY="94.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="1110.0" styleClass="EmpReg" stylesheets="@../Images.css">
+         <children>
+            <Label layoutX="26.0" layoutY="24.0" text="Employee Id :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="74.0" text="First Name :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="123.0" prefHeight="16.0" prefWidth="107.0" text="Last Name :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="176.0" text="Date Of Birth :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="236.0" text="Gender :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="289.0" text="Email :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="344.0" text="Contact :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="397.0" text="Address Line 1 :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="453.0" text="Address Line 2 :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="511.0" text="Post Code :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="empidview" layoutX="156.0" layoutY="25.0" onAction="#handleempidview">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="firstnameview" layoutX="155.0" layoutY="75.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="lastnameview" layoutX="155.0" layoutY="124.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="dobview" layoutX="155.0" layoutY="177.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="genderview" layoutX="156.0" layoutY="233.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="emailview" layoutX="155.0" layoutY="290.0" prefHeight="25.0" prefWidth="267.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="contactview" layoutX="155.0" layoutY="345.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="address1view" layoutX="155.0" layoutY="398.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="address2view" layoutX="156.0" layoutY="454.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="postcodeview" layoutX="155.0" layoutY="512.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <Label layoutX="424.0" layoutY="24.0" text="Department :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="77.0" text="Designation :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="424.0" layoutY="123.0" text="Status :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="176.0" text="Date Hired :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="235.0" text="Job Title :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="departmentview" layoutX="559.0" layoutY="22.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="designationview" layoutX="559.0" layoutY="72.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="statusview" layoutX="559.0" layoutY="121.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="dohview" layoutX="559.0" layoutY="177.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="titleview" layoutX="559.0" layoutY="233.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <ImageView fx:id="imgview" fitHeight="230.0" fitWidth="282.0" layoutX="814.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="50.0" />
+         </opaqueInsets>
+      </AnchorPane>
+      <Label layoutX="22.0" layoutY="60.0" text=" Employee Details">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

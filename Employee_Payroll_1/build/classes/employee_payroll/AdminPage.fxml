@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="anchor" stylesheets="@../Images.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee_payroll.FXMLDocumentController">
+   <children>
+       
+      <Button fx:id="AddBtn" blendMode="SRC_ATOP" cacheHint="ROTATE" layoutX="128.0" layoutY="44.0" mnemonicParsing="false" onAction="#handleAddEmployee" prefHeight="51.0" prefWidth="224.0" text="Add Employee" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+            
+         </font>
+         
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="SearchBtn" blendMode="SRC_ATOP" cacheHint="ROTATE" layoutX="275.0" layoutY="146.0" mnemonicParsing="false" onAction="#handleSearchEmployee" prefHeight="51.0" prefWidth="224.0" text="Search Employee">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="UpdateSalaryBtn" blendMode="SRC_ATOP" cacheHint="ROTATE" layoutX="442.0" layoutY="245.0" mnemonicParsing="false" onAction="#handleUpdateSalary" prefHeight="51.0" prefWidth="224.0" text="Update Salary">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="AllowanceBtn" blendMode="SRC_ATOP" cacheHint="ROTATE" layoutX="586.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleAllowance" prefHeight="51.0" prefWidth="224.0" text="Allowance">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="DeductionBtn" blendMode="SRC_ATOP" cacheHint="ROTATE" layoutX="724.0" layoutY="471.0" mnemonicParsing="false" onAction="#handleDeduction" prefHeight="51.0" prefWidth="224.0" text="Deductions">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="PaymentBtn" blendMode="SRC_ATOP" cacheHint="ROTATE" layoutX="884.0" layoutY="601.0" mnemonicParsing="false" onAction="#handlePayment" prefHeight="51.0" prefWidth="224.0" text="Payment">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="LogoutBtn" layoutX="1134.0" layoutY="44.0" mnemonicParsing="false" onAction="#handleLogout" text="Logout">
+         <font>
+            <Font name="Book Antiqua" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

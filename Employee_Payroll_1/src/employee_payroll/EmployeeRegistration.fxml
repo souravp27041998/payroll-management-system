@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="EmployeeRegistration" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="1159.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employee_payroll.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutX="22.0" layoutY="94.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="1110.0" styleClass="EmpReg" stylesheets="@../Images.css">
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="50.0" />
+         </opaqueInsets>
+         <children>
+            <Label layoutX="26.0" layoutY="24.0" text="Employee Id :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="74.0" text="First Name :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="123.0" prefHeight="16.0" prefWidth="107.0" text="Last Name :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="176.0" text="Date Of Birth :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="236.0" text="Gender :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="289.0" text="Email :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="344.0" text="Contact :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="397.0" text="Address Line 1 :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="453.0" text="Address Line 2 :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="511.0" text="Post Code :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="empiddetails" layoutX="156.0" layoutY="25.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="firstname" layoutX="155.0" layoutY="75.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="lastname" layoutX="155.0" layoutY="124.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="gender" layoutX="156.0" layoutY="233.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="email" layoutX="155.0" layoutY="290.0" prefHeight="25.0" prefWidth="241.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="contact" layoutX="155.0" layoutY="345.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="address1" layoutX="155.0" layoutY="398.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="address2" layoutX="156.0" layoutY="454.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="postcode" layoutX="155.0" layoutY="512.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <Label layoutX="424.0" layoutY="24.0" text="Department :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="77.0" text="Designation :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="424.0" layoutY="123.0" text="Status :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="176.0" text="Date Hired :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="423.0" layoutY="235.0" text="Job Title :">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="department" layoutX="559.0" layoutY="22.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="designation" layoutX="559.0" layoutY="72.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="jobstatus" layoutX="559.0" layoutY="121.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="jobtitle" layoutX="559.0" layoutY="233.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <Button fx:id="uploadbtn" layoutX="876.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleuploadbtn" text="Upload Image">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="saveemployeebtn" layoutX="555.0" layoutY="404.0" mnemonicParsing="false" onAction="#handlesaveemployeebtn" prefHeight="45.0" prefWidth="137.0" text="Save Record">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button fx:id="clearemployee" layoutX="812.0" layoutY="404.0" mnemonicParsing="false" onAction="#handleclearemployee" prefHeight="45.0" prefWidth="137.0" text="Clear">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <ImageView fx:id="img" fitHeight="222.0" fitWidth="287.0" layoutX="807.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" />
+            <TextField fx:id="dob" layoutX="156.0" layoutY="174.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+            <TextField fx:id="doh" layoutX="559.0" layoutY="174.0" prefHeight="25.0" prefWidth="149.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </TextField>
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+         
+            
+      </AnchorPane>
+      <Label layoutX="35.0" layoutY="62.0" text="Enter Employee Details">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
